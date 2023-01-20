@@ -16,9 +16,12 @@ async fn grade() -> (ContentType, &'static str) {
     <html>
         <head>
             <title>Vader - the Grader</title>
+            <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/style.css\" />
         </head>
         <body>
-            <h2>Vader - the Grader</h2>
+            <div class=\"panel\">
+                <h2><a href=\"/static/index.html\">Vader</a> - the Grader</h2>
+            </div>
         </body>
     </html>
     ")
