@@ -1,9 +1,16 @@
 [package]
 name = "vader"
 version = "0.1.0"
+authors = ["Ryan Ruckley <rruckley@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "Auto-grading tool for bouldering gyms"
+readme = "README.md"
+homepage = "https://github.com/rruckley/vader"
+repository = "https://github.com/rruckley/vader"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 opencv = "0.75.0"
+rocket = "0.5.0-rc.2"
