@@ -1,6 +1,27 @@
 
 body {
     background-color: #9ff;
+    font-family: bradley hand,cursive;
+}
+
+.panel {
+    background-color: #fff;
+    width: 70%;
+    margin: 15%;
+    height: 60%;
+    padding: 1em;
+    box-shadow: 8px 8px 5px grey;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .upload {
@@ -8,4 +29,9 @@ body {
     justify-content: space-between;
     width: 60%;
     margin: 0.5rem;
+}
+
+form.upload {
+    display: table;
+
 }
