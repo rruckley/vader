@@ -2,15 +2,19 @@
 <html>
     <head>
         <title>Vader - the Grader</title>
+        <link rel="stylesheet" type="text/css" href="/static/style.css"/>
     </head>
     <body>
         <h2>Vader - the Grader</h2>
         <p>
             Upload a wall image to start
         </p>
-        <form action="/grade">
-            <input type="file">Filename</input>
-            <input type="submit">Process Image</input>
+        <form action="/grade" method="post">
+            <div class="upload">
+                <label for="filename">Filename:</label>
+                <input name="filename" type="file"/><br />
+                <input type="submit">Process Image</input><br />
+            </div>
         </form>
     </body>
 </html>
