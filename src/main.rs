@@ -13,6 +13,14 @@ async fn index() -> (ContentType, &'static str) {
 #[post("/grade")]
 async fn grade() -> (ContentType, &'static str) {
     (ContentType::HTML, "
+    <html>
+        <head>
+            <title>Vader - the Grader</title>
+        </head>
+        <body>
+            <h2>Vader - the Grader</h2>
+        </body>
+    </html>
     ")
 }
 
