@@ -5,16 +5,18 @@
         <link rel="stylesheet" type="text/css" href="/static/style.css"/>
     </head>
     <body>
-        <h2>Vader - the Grader</h2>
-        <p>
-            Upload a wall image to start
-        </p>
-        <form action="/grade" method="post">
-            <div class="upload">
-                <label for="filename">Filename:</label>
-                <input name="filename" type="file"/><br />
-                <input type="submit">Process Image</input><br />
-            </div>
-        </form>
+        <div class="panel">
+            <h2><a href="/static/index.html">Vader</a> - the Grader</h2>
+            <p>
+                Upload a wall image to start
+            </p>
+            <form action="/grade" method="post" class="upload">
+                <div class="upload">
+                    <label for="filename">Filename:</label>
+                    <input name="filename" type="file"/><br />
+                    <input type="submit">Process Image</input><br />
+                </div>
+            </form>
+        </div>
     </body>
 </html>
