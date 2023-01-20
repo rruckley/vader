@@ -1,0 +1,11 @@
+
+body {
+    background-color: #9ff;
+}
+
+.upload {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0.5rem;
+}
